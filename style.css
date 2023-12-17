@@ -118,3 +118,60 @@ h2 {
         #contact .profile-image img:hover {
             transform: scale(1.2);
         }
+        
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('https://orizont.md/wp-content/uploads/2022/12/50086566077_100d6818a0_o-1024x533.jpg') no-repeat center center fixed;
+    background-size: cover;
+    transition: background-color 0.5s ease-in-out;
+}
+
+header {
+    background-color: rgba(52, 58, 64, 0.9); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 0.5em;
+    font-weight: bold;
+    background-color: rgba(33, 37, 41, 0.8); /* Semi-transparent background */
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: rgba(73, 80, 87, 0.8);
+    color: #ddd;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: rgba(52, 58, 64, 0.9);
+    color: white;
+    padding: 1.5em 0;
+}
+
+#contact .profile-image img:hover {
+    transform: scale(1.1);
+}
+
